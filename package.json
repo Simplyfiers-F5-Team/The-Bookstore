@@ -1,0 +1,31 @@
+{
+  "name": "the-bookstore",
+  "version": "1.0.0",
+  "description": "Proyecto CRUD",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simplyfiers-F5-Team/The-Bookstore.git"
+  },
+  "keywords": [
+    "CRUD",
+    "Node",
+    "Handlebars",
+    "Express",
+    "MongoDB",
+    "Sass"
+  ],
+  "author": "Simplyfiers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Simplyfiers-F5-Team/The-Bookstore/issues"
+  },
+  "homepage": "https://github.com/Simplyfiers-F5-Team/The-Bookstore#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0"
+  }
+}
