@@ -1,11 +1,11 @@
-{ "books": 
 [{
-    "title": "Handlebars para Dummies",
-    "stock": 40,
-    "price": 99.99
-}, {
-    "title": "Node para Dummies",
-    "stock": 50,
-    "price": 79.99
-}]
-}
+        "title": "Handlebars para Dummies",
+        "stock": 40,
+        "price": 99.99
+    },
+    {
+        "title": "Node para Dummies",
+        "stock": 50,
+        "price": 79.99
+    }
+]

@@ -1,4 +1,3 @@
-{ "cds":
 [{
     "title": "Guns N' Roses",
     "stock": 55,
@@ -8,4 +7,3 @@
     "stock": 32,
     "price": 30.50
 }]
-}

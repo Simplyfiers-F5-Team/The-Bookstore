@@ -1,8 +1,3 @@
-
-{{> bookList bookList=datos.libros}}
-
-{{> cdList cdList=datos.cedes}}
-
-datos{{datos}}
-datoslibros{{datos.libros}}
-datoscedes{{datos.cedes}}
+{{> bookList bookList=this.libros}}
+<hr/>
+{{> cdList cdList=this.cds}}
