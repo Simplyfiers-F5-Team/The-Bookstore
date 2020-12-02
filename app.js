@@ -2,8 +2,8 @@ var express = require('express'); //servidor web de node
 var exphbs  = require('express-handlebars'); //modulo de express para usar handlebars
 
 
-const data = require('./data/books.json', './data/cd.json'); //Para cargar datos que vamos a cargar le pasamos el json con el objeto
-
+const data = require('./data/books.json'); //Para cargar datos que vamos a cargar le pasamos el json con el objeto
+const cds = require("./data/cd.json");
 
 var app = express(); //creamos objeto express en el servidor web
  
@@ -17,8 +17,8 @@ app.get('/bookList', function (req, res) {                   //cada vez q se lla
     res.render('home', data);
 });
  
-app.get("/", function (req, res){
-    res.send("estás en el raiz de The Bookstore");
+app.get("/cdList", function (req, res){
+    res.render('home', {datos:{libros: data, cedes: cds}});
 });
 
-app.listen(3000);
+app.listen(3000); 
