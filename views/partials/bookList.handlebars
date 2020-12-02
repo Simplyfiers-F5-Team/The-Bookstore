@@ -1,7 +1,9 @@
-<ul>
+<dl>
 
     {{#each bookList}}
-        <li> {{this}} </li>
+        <dt>Título</dt><dd>{{this.title}}</dd>
+        <dt>Stock</dt><dd>{{this.stock}}</dd>
+        <dt>Precio</dt><dd>{{this.price}} €</dd>
     {{/each}}
 
-</ul>
+</dl>
