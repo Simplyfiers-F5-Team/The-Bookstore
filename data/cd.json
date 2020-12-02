@@ -1,0 +1,11 @@
+{ "cds":
+[{
+    "title": "Guns N' Roses",
+    "stock": 55,
+    "price": 30.90
+}, {
+    "title": "Metallica",
+    "stock": 32,
+    "price": 30.50
+}]
+}

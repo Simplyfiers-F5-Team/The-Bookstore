@@ -2,7 +2,7 @@ var express = require('express'); //servidor web de node
 var exphbs  = require('express-handlebars'); //modulo de express para usar handlebars
 
 
-const data = require('./data/books.json'); //Para cargar datos que vamos a cargar le pasamos el json con el objeto
+const data = require('./data/books.json', './data/cd.json'); //Para cargar datos que vamos a cargar le pasamos el json con el objeto
 
 
 var app = express(); //creamos objeto express en el servidor web
