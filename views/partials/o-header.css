@@ -1,0 +1,7 @@
+header {
+    width: 100vw;
+    height: 6rem;
+    background-color: hsl(156, 54%, 81%);
+    text-align: center;
+    padding: 2rem;
+}
