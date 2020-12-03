@@ -26,6 +26,8 @@
   "homepage": "https://github.com/Simplyfiers-F5-Team/The-Bookstore#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^5.2.0"
+    "express-handlebars": "^5.2.0",
+    "sass": "^1.29.0",
+    "uuid": "^8.3.1"
   }
 }
