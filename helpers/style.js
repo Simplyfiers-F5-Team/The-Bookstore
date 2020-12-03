@@ -8,13 +8,6 @@ exports.style = function(fileName, options) {
     const cssPath = path.join(__dirname, '..', 'views', 'partials', fileName + '.scss');
     const cssFile = fs.readFileSync(cssPath, (err, date) => {});
     const scssStyle = `[data-uuid="${UUID}"]{` + cssFile + `}`;
-    const scss = sass.renderSync({ data: scssStyle });
-    return `
-		<style>
-			${scss.css.toString()}
-		</style>
-		<div data-uuid="${UUID}">
-		${options.fn(this)}
-		</div>
-	`;
+    const scss = sass.renderSync({ data: scssStyle, outputStyle: "compressed" });
+    return `<style>${scss.css.toString()}</style><div data-uuid="${UUID}">${options.fn(this)}</div>`;
 }

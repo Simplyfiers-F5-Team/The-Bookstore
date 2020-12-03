@@ -1,7 +1,16 @@
-& {
+    & {
     width: 100vw;
-    height: 6rem;
     background-color: hsl(156, 54%, 81%);
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 2rem;
 }
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 2pt;
+    word-spacing: 8pt;
+    border: 1px solid #111;
+    width: fit-content;
+    padding: 0.5rem 2rem;
+    margin: 0 auto
