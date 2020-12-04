@@ -4,6 +4,7 @@ var exphbs = require('express-handlebars'); //modulo de express para usar handle
 
 const data = require('./data/books.json'); //Para cargar datos que vamos a cargar le pasamos el json con el objeto
 const cds = require("./data/cd.json");
+const fruits = require("./data/fruits.json");
 
 var app = express(); //creamos objeto express en el servidor web
 
@@ -19,6 +20,10 @@ app.get('/bookList', function(req, res) { //cada vez q se llame al razi del serv
 
 app.get("/cdList", function(req, res) {
     res.render('home', { libros: data, cds: cds });
+});
+
+app.get("/fruitList", function(req, res) {
+    res.render('home', { fruit: fruits });
 });
 
 app.listen(3000);
